@@ -7,7 +7,7 @@ nes (101 sloc)  1.67 KB
 *.pyc
 __pycache__/
 local_settings.py
-db.sqlite3
+#db.sqlite3
 venv/
 
 __pycache__/
@@ -68,8 +68,8 @@ coverage.xml
 # Django stuff:
 *.log
 local_settings.py
-db.sqlite3
-db.sqlite3-journal
+#db.sqlite3
+#db.sqlite3-journal
 
 # Flask stuff:
 instance/
@@ -102,7 +102,7 @@ ipython_config.py
 #Pipfile.lock
 
 # celery beat schedule file
-celerybeat-schedule
+#celerybeat-schedule
 
 # SageMath parsed files
 *.sage.py
